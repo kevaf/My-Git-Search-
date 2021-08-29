@@ -10,6 +10,7 @@ import { ReposComponent } from './repos/repos.component';
 import { FindComponent } from './find/find.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     UserDetsComponent,
     ReposComponent,
     FindComponent,
-    NavBarComponent
+    NavBarComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
