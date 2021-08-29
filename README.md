@@ -11,9 +11,10 @@ This web app was created by Kevin Kipyegon.
 If you have any suggestions or improvements you can reach the author via mail at kevin.kipyegon@student.moringaschool.com 
 
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Installation.
+1. Step one <br>Install Node Js and Angular CLI
+2. Step two <br> Git clone https://github.com/kevaf/My-Git-Search-.git to your local machine storage.
+3.  Step three <br> On your Terminal run ng serve --open to view the site on your browser.
 
 ## Running unit tests
 
