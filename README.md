@@ -17,6 +17,9 @@ If you have any suggestions or improvements you can reach the author via mail at
 3.  Step three <br> On your Terminal run ng serve --open to view the site on your browser.
 
 ## Screenshots
-
+![LandingPage](src/assets/landing.png)
+![UsersPage](src/assets/users.png)
+![ReposPage](src/assets/repos.png)
 
 ## Liscence
+This is an open source project available under the [MIT Licence](LISCENCE)
