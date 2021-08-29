@@ -11,6 +11,7 @@ import { FindComponent } from './find/find.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HighlightDirective } from './highlight.directive';
+import { TimepassedPipe } from './timepassed.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HighlightDirective } from './highlight.directive';
     ReposComponent,
     FindComponent,
     NavBarComponent,
-    HighlightDirective
+    HighlightDirective,
+    TimepassedPipe
   ],
   imports: [
     BrowserModule,
