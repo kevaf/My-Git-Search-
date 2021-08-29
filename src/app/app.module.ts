@@ -9,6 +9,7 @@ import { UserDetsComponent } from './user-dets/user-dets.component';
 import { ReposComponent } from './repos/repos.component';
 import { FindComponent } from './find/find.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
