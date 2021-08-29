@@ -1,20 +1,24 @@
 <app-find (findEmitter)="findUser($event)"></app-find>
 
-
+<div id="users">
 <div *ngFor="let user of myUserProfile">
-    <h4>Name:{{user.name}}</h4>
+    <h4>{{user.name}}</h4>
     <img src="{{user.avatar_url}}" width="200px" alt="">
-    <h4>Followers:{{user.followers}}</h4>
-    <h4>Following:{{user.following}}</h4>
-    <h4>Twitter:{{user.twitter_username}}</h4>
-    <h4>Bio:{{user.bio}}</h4>
-    <h4>Location:{{user.location}}</h4>
+    <div class="follow">
+        <p>Followers:{{user.followers}}</p> &nbsp;
+        <p>Following:{{user.following}}</p>
+    </div>
+    <p><i class="fab fa-twitter" style="color: navy;"></i>:@{{user.twitter_username}}</p>
+    <p>Bio:{{user.bio}}</p>
+    <p>Location:{{user.location}}</p>
 
 </div>
-<h3>Repositories</h3>
-<div class="div">
-<div *ngFor="let rep of myRepo">
-    <h4>{{rep.name}} Language:{{rep.language}}</h4>
-    <h4></h4>
+<div class="card" style="width: 25rem;">
+    <div class="card-header">
+      Repositories
+    </div>
+    <ul class="list-group list-group-flush" *ngFor="let rep of myRepo">
+      <li class="list-group-item">{{rep.name}} Language:{{rep.language}}</li>
+    </ul>
 </div>
 </div>
