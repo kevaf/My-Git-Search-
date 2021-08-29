@@ -8,14 +8,14 @@
         <p>Followers:{{user.followers}}</p> &nbsp;
         <p>Following:{{user.following}}</p>
     </div>
-    <p><i class="fab fa-twitter" style="color: navy;"></i>:@{{user.twitter_username}}</p>
+    <p><i class="fab fa-twitter"></i>:@{{user.twitter_username}}</p>
     <p>Bio:{{user.bio}}</p>
     <p>Location:{{user.location}}</p>
 
 </div>
 <div class="card" style="width: 25rem;">
     <div class="card-header">
-      Repositories
+      <strong>Repositories</strong>
     </div>
     <ul class="list-group list-group-flush" *ngFor="let rep of myRepo">
       <li class="list-group-item">{{rep.name}} Language:{{rep.language}}</li>

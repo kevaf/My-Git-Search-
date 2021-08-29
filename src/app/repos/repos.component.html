@@ -1,9 +1,16 @@
-<h1>REPOSITORIES</h1>
 <app-find (findEmitter)="findRepo($event)"></app-find>
-<div *ngFor="let rep of myRepo" >
-    <h4 appHighlight>Name:{{rep.name}}</h4>
-    <h4>Description:{{rep.description}}</h4>
-    <h4>language:{{rep.language}}</h4>
-    <h4>Created At:{{rep.created_at|timepassed}}</h4>
-    <h4>Forks:{{rep.forks}}</h4>
+
+<div class="row">
+    <div class="card" style="width: 18rem;"*ngFor="let rep of myRepo" class="col-md-4" id="card">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Name:{{rep.name}}</strong></h5>
+          <p class="card-text">Description:{{rep.description}}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">language:{{rep.language}}</li>
+          <li class="list-group-item">Created:{{rep.created_at|timepassed}}</li>
+          <li class="list-group-item">Forks:{{rep.forks}}</li>
+        </ul>
+      </div>
 </div>
+

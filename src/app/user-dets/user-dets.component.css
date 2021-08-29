@@ -1,6 +1,6 @@
 #users{
     display: flex;
-    margin-left: 20%;
+    padding-left: 20%;
 }
 .card{
     margin-left: 10%;
