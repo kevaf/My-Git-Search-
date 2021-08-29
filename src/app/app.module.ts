@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { UserDetsComponent } from './user-dets/user-dets.component';
 import { ReposComponent } from './repos/repos.component';
 import { FindComponent } from './find/find.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserDetsComponent,
     ReposComponent,
-    FindComponent
+    FindComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
