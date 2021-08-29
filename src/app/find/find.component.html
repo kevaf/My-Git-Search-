@@ -1,4 +1,5 @@
 <form action="">
-    <input type="text" name="findUser" [(ngModel)]="findUser" (keyup)='findFunction()'>
-    <button (click)="findFunction()">Search</button>
+    <input type="text" name="findUser" [(ngModel)]="findUser" (keyup)='findFunction()' class="form-control" style="width: 500px;"> &nbsp;
+    <button (click)="findFunction()" class="btn btn-primary mb-2">Search</button>
+    
 </form>
