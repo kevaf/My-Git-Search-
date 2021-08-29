@@ -1,10 +1,10 @@
 # GitFind
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+This is an angular project that allows users to serch for Users and their repos.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This web app allows the Users to search for profile 
 
 ## Code scaffolding
 
