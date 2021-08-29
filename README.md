@@ -4,7 +4,7 @@ This is an angular project that allows users to serch for Users and their repos.
 
 ## Description
 
-This web app allows the Users to search for profile 
+This web app allows the Users to search for profiles on GitHub by typing usernames. Also it allows the users to search for Repositories in GitHub by simply typing the repository name and hitting the search button.
 
 ## Code scaffolding
 
