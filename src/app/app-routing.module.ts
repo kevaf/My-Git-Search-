@@ -4,8 +4,10 @@ import { ReposComponent } from './repos/repos.component';
 import { UserDetsComponent } from './user-dets/user-dets.component';
 
 const routes: Routes = [
-  {path:"FindUser", component:UserDetsComponent},
-  {path:"FetchRepo", component:ReposComponent},
+  {path:"findUser", component:UserDetsComponent},
+  {path:"fetchRepo", component:ReposComponent},
+  {path:"", redirectTo:"findUser", pathMatch:""},
+ 
 ];
 
 @NgModule({
