@@ -6,9 +6,10 @@ This is an angular project that allows users to serch for Users and their repos.
 
 This web app allows the Users to search for profiles on GitHub by typing usernames. Also it allows the users to search for Repositories in GitHub by simply typing the repository name and hitting the search button.
 
-## Code scaffolding
+## Author & Contact Information.
+This web app was created by Kevin Kipyegon.
+If you have any suggestions or improvements you can reach the author via mail at kevin.kipyegon@student.moringaschool.com 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
