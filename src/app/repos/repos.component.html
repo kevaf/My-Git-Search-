@@ -1,1 +1,9 @@
-<p>repos works!</p>
+<h1>REPOSITORIES</h1>
+<app-find (findEmitter)="findRepo($event)"></app-find>
+<div *ngFor="let rep of myRepo">
+    <h4>Name:{{rep.name}}</h4>
+    <h4>Description:{{rep.description}}</h4>
+    <h4>language:{{rep.language}}</h4>
+    <h4>Created At:{{rep.created_at}}</h4>
+    <h4>Forks:{{rep.forks}}</h4>
+</div>
