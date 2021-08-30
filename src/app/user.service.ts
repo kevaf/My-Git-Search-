@@ -10,6 +10,7 @@ export class UserService {
   myUserProfile:Users[]=[];
   url="https://api.github.com/users/"
   myAccessToken=`?access_token=${environment.myAccessToken}`;
+ 
   
   constructor( private http:HttpClient) { }
 
